@@ -1,0 +1,27 @@
+{
+  "developers": [
+    {
+      "name": "Amr Slama",
+      "role": "Website Developer",
+      "description": "Created and developed the Prépa Classique Ressources website.",
+      "links": {
+        "facebook": "https://www.facebook.com/you.got.hacked",
+        "instagram": "https://www.instagram.com/amr.droid/",
+        "github": "https://github.com/AmrDroid-git",
+        "linkedin": "https://www.linkedin.com/in/slama-amr-27834b339/"
+      }
+    }
+  ],
+  "community": {
+    "name": "El Mostahlek",
+    "description": "Community behind the idea of sharing useful educational resources.",
+    "links": {
+      "facebook": "https://www.facebook.com/elmostahlek",
+      "instagram": "https://www.instagram.com/el_mostahlek/",
+      "linkedin": "https://www.linkedin.com/in/el-mostahlek-yestahlek-979931407/"
+    }
+  },
+  "thanks": [
+    "Big thanks from El Mostahlek and the Estehlek community to Amr Slama for creating the website."
+  ]
+}
