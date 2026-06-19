@@ -21,38 +21,10 @@
     "type": "folder"
   },
   {
-    "link": "https://drive.google.com/drive/folders/1lveWt-tcXibLDbsi9vdZVhE1MIUnMfbV?usp=drive_link",
-    "name": "Sciences",
-    "owner": "community",
-    "description": "BAC - SVT - Sciences",
-    "type": "folder"
-  },
-  {
-    "link": "https://drive.google.com/drive/folders/1Sv7urbO4KGPMbcdcAkET5DRG68t2588q",
-    "name": "",
-    "owner": "community",
-    "description": "BAC - Math",
-    "type": "folder"
-  },
-  {
-    "link": "https://drive.google.com/drive/folders/1ENhVJNHC_39uYwIK-kmsEXvPJoBsNqik?usp=drive_link",
-    "name": "",
-    "owner": "community",
-    "description": "BAC - Informatique",
-    "type": "folder"
-  },
-  {
     "link": "https://drive.google.com/drive/folders/1ebSGZui8Z2X-QfinCmOacFeMRTamV1fb?usp=drive_link",
     "name": "Astuce Phy 3am keml",
     "owner": "community",
     "description": "BAC - Astuce Phy 3am keml",
-    "type": "folder"
-  },
-  {
-    "link": "https://drive.google.com/drive/folders/1b9ydPVzaJh2u2Ezimba4SD6D7omANapo",
-    "name": "",
-    "owner": "community",
-    "description": "BAC",
     "type": "folder"
   },
   {
@@ -68,13 +40,6 @@
     "owner": "community",
     "description": "BAC - Bac sc",
     "type": "file"
-  },
-  {
-    "link": "https://drive.google.com/drive/folders/1hNq-WwJDYZtEX5IKu1CPlBcIYyeKHE4c?usp=drive_link",
-    "name": "bac info",
-    "owner": "community",
-    "description": "BAC - bac info",
-    "type": "folder"
   },
   {
     "link": "https://drive.google.com/drive/folders/1VvpK2ub43mGtLifVWq8mO-AOzTFyy9VQ",
@@ -138,13 +103,6 @@
     "description": "Dossier Google Drive regroupant des ressources pour le Bac Sciences 2025, avec des documents pour l’allemand option.",
     "link": "https://drive.google.com/drive/folders/1IDP2tEUPQPcvK4QpF4h5SQgh_MBkuRIz",
     "owner": "nourelimenchakroun"
-  },
-  {
-    "type": "folder",
-    "name": "Taki Academy — Bac Informatique",
-    "description": "Dossier Google Drive contenant des ressources Taki Academy pour le Bac Informatique.",
-    "link": "https://drive.google.com/drive/folders/1io8-UPpB2x7lVORpv9USHGgFvPdQZ6mC",
-    "owner": "waadhfd4"
   },
   {
     "type": "folder",

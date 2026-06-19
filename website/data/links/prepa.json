@@ -14,24 +14,10 @@
     "type": "folder"
   },
   {
-    "link": "https://drive.google.com/drive/folders/1hvqEAuT7YWU6T-Qe187swZE8-IIBUpSR?usp=drive_link",
-    "name": "2 ème",
-    "owner": "community",
-    "description": "IPEIM - cours et TD Mme Sonia Dridi - Chimie Inorganique - 2 ème",
-    "type": "folder"
-  },
-  {
     "link": "https://drive.google.com/drive/folders/1FXVDmnWigfU96IpiPTov1a_c2iee-Q1-?usp=drive_link",
     "name": "Mp2",
     "owner": "community",
     "description": "IPEST - Barcha math w phy w matière sec - Mp2",
-    "type": "folder"
-  },
-  {
-    "link": "https://drive.google.com/drive/folders/10RUKSJNPp7vD4KvHm-Z4MW5nnlNCtRtV?usp=drive_link",
-    "name": "2 ème",
-    "owner": "community",
-    "description": "PREPA - 2 ème",
     "type": "folder"
   },
   {
@@ -862,27 +848,6 @@
   },
   {
     "type": "folder",
-    "name": "Ressources mixtes Prépa",
-    "description": "Bien recommandé : ressources prépa, notamment cours de mécanique/thermodynamique et livres recommandés.",
-    "link": "https://drive.google.com/drive/folders/1VyiOOPjc0bTR6SuU0bVNSQhSglxqiGw8?usp=drive_link",
-    "owner": "community"
-  },
-  {
-    "type": "folder",
-    "name": "TD IPEIT toutes les matières",
-    "description": "Fort recommandé : dossier IPEIT avec TD pour toutes les matières.",
-    "link": "https://drive.google.com/drive/folders/1FQu3Tv-qkfpMDake4yhOt2Qovgb7VEFu?usp=drive_link",
-    "owner": "community"
-  },
-  {
-    "type": "folder",
-    "name": "Guide 2ème Nour MP",
-    "description": "Fort recommandé : guide et documents de deuxième année MP.",
-    "link": "https://drive.google.com/drive/folders/1B5mx3ARKxiGSwWz_YEtOA34yjMlofdrR?usp=drive_link",
-    "owner": "community"
-  },
-  {
-    "type": "folder",
     "name": "STA Dris Yacine — Examen 2 IPEIT 2020-2021",
     "description": "Recommandé : examen 2 IPEIT 2020-2021 avec correction.",
     "link": "https://drive.google.com/drive/folders/1jHTU_JyXHVUS10vu7S_RVBWI5MaJgkBb?usp=drive_link",
@@ -928,13 +893,6 @@
     "name": "Sites France — Maths Sup",
     "description": "Recommandé : ressources et sites français pour maths sup / prépa.",
     "link": "https://drive.google.com/drive/u/0/folders/1itUI0sYCPvgrTHdVdE0HKsUoyqFQAoEK",
-    "owner": "community"
-  },
-  {
-    "type": "folder",
-    "name": "Livres Prépa",
-    "description": "Neutre : livres pour première et deuxième année prépa.",
-    "link": "https://drive.google.com/drive/folders/1MhY9uHGyIBdJBm3AxD9P7GzxosvZHPyS",
     "owner": "community"
   },
   {
