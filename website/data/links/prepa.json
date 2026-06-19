@@ -5,5 +5,40 @@
     "owner": "waelrim123",
     "description": "not filtered, MP2 FSM 2023",
     "type": "folder"
+  },
+  {
+    "link": "https://drive.google.com/drive/folders/1IrQg5-VNJq_iT1ojE6TQmF0Nbo9mul7r?usp=drive_link",
+    "name": "2ème",
+    "owner": "community",
+    "description": "IPEIM - 2ème",
+    "type": "folder"
+  },
+  {
+    "link": "https://drive.google.com/drive/folders/1hvqEAuT7YWU6T-Qe187swZE8-IIBUpSR?usp=drive_link",
+    "name": "2 ème",
+    "owner": "community",
+    "description": "IPEIM - cours et TD Mme Sonia Dridi - Chimie Inorganique - 2 ème",
+    "type": "folder"
+  },
+  {
+    "link": "https://drive.google.com/drive/folders/1FXVDmnWigfU96IpiPTov1a_c2iee-Q1-?usp=drive_link",
+    "name": "Mp2",
+    "owner": "community",
+    "description": "IPEST - Barcha math w phy w matière sec - Mp2",
+    "type": "folder"
+  },
+  {
+    "link": "https://drive.google.com/drive/folders/10RUKSJNPp7vD4KvHm-Z4MW5nnlNCtRtV?usp=drive_link",
+    "name": "2 ème",
+    "owner": "community",
+    "description": "PREPA - 2 ème",
+    "type": "folder"
+  },
+  {
+    "link": "https://drive.google.com/drive/folders/1dGPCloUtiZzBw9vf_r8OmV3JTVNb7ZnZ?usp=drive_link",
+    "name": "mostly 1ère (fih 2ème)",
+    "owner": "community",
+    "description": "PREPA - mostly 1ère (fih 2ème)",
+    "type": "folder"
   }
 ]
