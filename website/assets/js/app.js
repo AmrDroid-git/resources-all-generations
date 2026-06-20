@@ -297,6 +297,21 @@
       });
   }
 
+
+  async function discoverFilesFromGeneratedIndex() {
+    const indexFile = state.config.resources_index_file || `${resourceDirectory()}_files.json`;
+    try {
+      const response = await fetch(indexFile, { cache: 'no-cache' });
+      if (!response.ok) return [];
+      const payload = await response.json();
+      const rawFiles = Array.isArray(payload) ? payload : (payload.files || []);
+      return rawFiles.map(fileNameFromHref).filter(isResourceJsonFile);
+    } catch (error) {
+      console.warn('Generated resource index failed, trying fallback discovery.', error);
+      return [];
+    }
+  }
+
   async function discoverFilesFromEndpoint() {
     const endpoint = state.config.resources_discovery_endpoint;
     if (!endpoint) return [];
@@ -323,11 +338,14 @@
 
   async function discoverResourceEntries() {
     const directory = resourceDirectory();
-    const filesFromEndpoint = await discoverFilesFromEndpoint();
-    const files = filesFromEndpoint.length ? filesFromEndpoint : await discoverFilesFromDirectoryListing();
+    const filesFromIndex = await discoverFilesFromGeneratedIndex();
+    const filesFromEndpoint = filesFromIndex.length ? [] : await discoverFilesFromEndpoint();
+    const files = filesFromIndex.length
+      ? filesFromIndex
+      : (filesFromEndpoint.length ? filesFromEndpoint : await discoverFilesFromDirectoryListing());
 
     if (!files.length) {
-      throw new Error(`No university JSON files were discovered. On Netlify, check /.netlify/functions/list-resources and data/link/*.json. Locally, make sure ${directory} exists.`);
+      throw new Error(`No university JSON files were discovered. Check ${state.config.resources_index_file || `${directory}_files.json`} and data/link/*.json.`);
     }
 
     return buildEntriesFromFiles(files);

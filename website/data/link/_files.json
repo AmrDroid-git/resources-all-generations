@@ -1,0 +1,23 @@
+{
+  "generated": true,
+  "files": [
+    "bac.json",
+    "enau.json",
+    "enetcom.json",
+    "enit.json",
+    "ensi.json",
+    "esen.json",
+    "fst.json",
+    "insat.json",
+    "isamm.json",
+    "iseah.json",
+    "iset.json",
+    "isetcom.json",
+    "isg.json",
+    "isi.json",
+    "isim.json",
+    "medicine.json",
+    "prepa.json",
+    "ugaf.json"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "resources-static-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/generate-resource-index.js",
+    "start": "python -m http.server 8000"
+  }
+}

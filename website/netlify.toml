@@ -1,6 +1,7 @@
 # Netlify configuration for clean static routes.
 [build]
   publish = "."
+  command = "node scripts/generate-resource-index.js"
 
 
 [functions]
