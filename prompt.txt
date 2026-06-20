@@ -1,0 +1,18 @@
+in this uploaded file you have many universities json files of resources with types (files/folders/websites).
+also you have a file called config containing link for a form for people who wanna share more files to me so that I can add them and also last modification date containing last time I edited the resources.
+what I want you to do is to create a static website that I will upload in netlify and maybe vercel containing all those resources.
+I want the website to support 3 languages (english/french/arabic) so we need json file containing those 3 languages and the languages changes everything in the website except the resources json files content stay always the same .the default language of the website is french and after loading you can change it.
+The website structure:
+nav bar at the top containing 5 routes and writing at the left top the last modif date of the project:
+/home page (which is the home page where we have a description of our project with some Du'a at the end for people to reussite...)
+/resources page containing search bar with filter to filter if you want to see all resources or just for specific university and specify also type all/ folders/ files/ websites ...
+also could be filtered by the owner of the drive or website.
+if a link contains "color": "rgb(255, 160, 71)" for example, then the component containing that drive especially will be colored with that color and not normal color like others.
+by default when opening /resources it will load just 10 resources from different universities files, cuz loading the hole content when loading will crash the website, but if the user choose "all" when filtering then show them all(we dont care about him).
+
+/download route containing a download page where you can choose which university resources to download, and of course you can choose to download them all in one and you can download just websites for example not folders or files. The download format is txt so you have to read the json and transform them to txt when running the js script of download. when downloading dont add the field of color it is useless in the txt file.
+the download page have filter option tho like search page.
+
+/collaborate containing the button that takes you to the page of google form where people can collaborate by sending their drives in that form for me to upload it in my website.
+
+/about page containing the about info of our project (from the about.json) you can read the developers and collaborators of the website. and thanking all people for this work...

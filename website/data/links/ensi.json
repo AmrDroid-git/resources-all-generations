@@ -4,7 +4,8 @@
     "name": "1st year",
     "owner": "community",
     "description": "ENSI - fih dossier prepa zeda - 1st year",
-    "type": "folder"
+    "type": "folder",
+    "color": "rgb(255, 160, 71)"
   },
   {
     "link": "https://drive.google.com/drive/folders/1wGAT4Y_CnD2wzmCTxZZzbxag7P9r6N4O",

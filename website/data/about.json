@@ -12,6 +12,12 @@
       }
     }
   ],
+  "website_info": [
+    {
+      "repo_github": "https://github.com/AmrDroid-git/resources-all-generations",
+      "owner": "Amr Slama"
+    }
+  ],
   "community": {
     "name": "El Mostahlek",
     "description": "Community behind the idea of sharing useful educational resources.",
