@@ -1,0 +1,26 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "rewrites": [
+    {
+      "source": "/home",
+      "destination": "/home/"
+    },
+    {
+      "source": "/resources",
+      "destination": "/resources/"
+    },
+    {
+      "source": "/download",
+      "destination": "/download/"
+    },
+    {
+      "source": "/collaborate",
+      "destination": "/collaborate/"
+    },
+    {
+      "source": "/about",
+      "destination": "/about/"
+    }
+  ]
+}

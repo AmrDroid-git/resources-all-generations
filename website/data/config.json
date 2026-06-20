@@ -1,5 +1,66 @@
 {
   "last_modification_date": "18/06/2026",
   "share_resources_link": "https://docs.google.com/forms/d/e/1FAIpQLSdZ1iiYGhA2uhnLFqPEZ3CBwjjNNmW4T0CgzHVZX_gB40ZZeg/viewform",
-  "resources_hub_link": "https://ressources-hub.netlify.app/"
+  "resources_hub_link": "https://ressources-hub.netlify.app/",
+  "defaults": {
+    "language": "fr",
+    "theme": "light",
+    "style": "classic",
+    "default_university": "ensi"
+  },
+  "appearance": {
+    "themes": [
+      {
+        "id": "light",
+        "label": "Light"
+      },
+      {
+        "id": "dark",
+        "label": "Dark"
+      }
+    ],
+    "styles": [
+      {
+        "id": "normal",
+        "label": "Normal",
+        "description": "Neutral clean default SaaS style."
+      },
+      {
+        "id": "classic",
+        "label": "Classic",
+        "description": "Warm classic student-library look. This is the configured default."
+      },
+      {
+        "id": "bold",
+        "label": "Bold",
+        "description": "Colorful vibrant theme with strong accents."
+      },
+      {
+        "id": "hacking",
+        "label": "Hacking",
+        "description": "Terminal-inspired green-on-dark cybersecurity style."
+      },
+      {
+        "id": "modern",
+        "label": "Modern",
+        "description": "Blue SaaS product style."
+      },
+      {
+        "id": "academic",
+        "label": "Academic",
+        "description": "Formal university green palette."
+      },
+      {
+        "id": "minimal",
+        "label": "Minimal",
+        "description": "Simple grayscale interface with low visual noise."
+      },
+      {
+        "id": "glass",
+        "label": "Glass",
+        "description": "Soft translucent dashboard style."
+      }
+    ]
+  },
+  "resources_directory": "/data/link/"
 }

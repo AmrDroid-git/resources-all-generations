@@ -1,0 +1,401 @@
+{
+  "fr": {
+    "langName": "Français",
+    "dir": "ltr",
+    "seoTitle": "Ressources Étudiantes | El Mostahlek",
+    "seoDescription": "Une plateforme statique pour collecter et retrouver facilement des ressources étudiantes.",
+    "nav": {
+      "home": "Accueil",
+      "resources": "Ressources",
+      "download": "Télécharger",
+      "collaborate": "Collaborer",
+      "about": "À propos"
+    },
+    "common": {
+      "lastUpdate": "Dernière modification",
+      "open": "Ouvrir",
+      "openResource": "Ouvrir la ressource",
+      "search": "Rechercher",
+      "university": "Université",
+      "type": "Type",
+      "owner": "Propriétaire",
+      "all": "Tout",
+      "allUniversities": "Toutes les universités",
+      "folders": "Dossiers",
+      "files": "Fichiers",
+      "websites": "Sites web",
+      "folder": "Dossier",
+      "file": "Fichier",
+      "website": "Site web",
+      "reset": "Réinitialiser",
+      "loading": "Chargement...",
+      "noResults": "Aucune ressource trouvée avec ces filtres.",
+      "resources": "ressources",
+      "result": "résultat",
+      "results": "résultats",
+      "download": "Télécharger",
+      "copy": "Copier",
+      "selectAll": "Tout sélectionner",
+      "clear": "Vider",
+      "generatedFrom": "Généré depuis",
+      "backHome": "Retour à l’accueil",
+      "skipContent": "Aller au contenu",
+      "name": "Nom",
+      "description": "Description",
+      "link": "Lien",
+      "generatedAt": "Généré le",
+      "total": "Total",
+      "darkMode": "Mode sombre",
+      "lightMode": "Mode clair",
+      "style": "Style"
+    },
+    "home": {
+      "badge": "Bibliothèque communautaire",
+      "title": "Toutes les ressources étudiantes utiles dans un seul endroit.",
+      "subtitle": "Un site simple, rapide et statique pour regrouper les dossiers Drive, fichiers et sites web partagés par la communauté.",
+      "ctaResources": "Explorer les ressources",
+      "ctaCollaborate": "Partager une ressource",
+      "statsTitle": "Ce que le site organise",
+      "statUniversities": "catégories / universités",
+      "statResources": "ressources indexées",
+      "statTypes": "types de ressources",
+      "ideaTitle": "Pourquoi ce projet ?",
+      "ideaText": "Les liens utiles sont souvent perdus dans des publications, messages ou groupes. Ce projet les rassemble dans une interface claire avec recherche, filtres, téléchargement TXT et un formulaire pour proposer de nouvelles ressources.",
+      "cards": [
+        {
+          "title": "Recherche rapide",
+          "text": "Filtre par université, type, propriétaire ou mots-clés dans le nom et la description."
+        },
+        {
+          "title": "Téléchargement simple",
+          "text": "Transforme les fichiers JSON en listes TXT propres directement dans le navigateur."
+        },
+        {
+          "title": "Projet évolutif",
+          "text": "Ajoute de nouvelles universités avec un simple fichier JSON, les compteurs se calculent automatiquement."
+        }
+      ],
+      "duaTitle": "Du’a pour les étudiants",
+      "duaArabic": "اللهم لا سهل إلا ما جعلته سهلاً، وأنت تجعل الحزن إذا شئت سهلاً. اللهم وفق كل طالب وطالبة وارزقهم علماً نافعاً ونجاحاً مباركاً.",
+      "duaTranslation": "Qu’Allah facilite à tous les étudiants, leur accorde une science utile, une réussite bénie et les meilleures causes de succès."
+    },
+    "resourcesPage": {
+      "title": "Explorer les ressources",
+      "subtitle": "Par défaut, la page charge les ressources ENSI pour rester légère. Choisissez une autre université ou “Toutes les universités” pour élargir la recherche.",
+      "searchPlaceholder": "Nom, description, lien...",
+      "fullNotice": "Affichage complet : toutes les universités correspondant aux filtres sont chargées.",
+      "loadAllHint": "Choisissez “Toutes les universités” pour afficher toute la base.",
+      "countLabel": "Ressources affichées",
+      "defaultNotice": "Affichage par université sélectionnée. ENSI est chargé par défaut."
+    },
+    "downloadPage": {
+      "title": "Télécharger les ressources en TXT",
+      "subtitle": "Choisissez les universités et les types à inclure. Le fichier TXT est généré dans le navigateur à partir des JSON, sans le champ color.",
+      "chooseUniversities": "Universités à inclure",
+      "filtersTitle": "Filtres du téléchargement",
+      "searchPlaceholder": "Nom, description, lien...",
+      "preview": "Aperçu",
+      "downloadButton": "Télécharger le TXT",
+      "emptySelection": "Sélectionnez au moins une université.",
+      "emptyDownload": "Aucune ressource ne correspond aux filtres actuels.",
+      "fileName": "ressources-etudiantes"
+    },
+    "collaboratePage": {
+      "title": "Collaborer au projet",
+      "subtitle": "Vous avez un dossier Drive, un fichier ou un site utile ? Envoyez-le via le formulaire pour qu’il soit ajouté après vérification.",
+      "button": "Ouvrir le formulaire Google",
+      "stepsTitle": "Comment contribuer ?",
+      "steps": [
+        "Ouvrez le formulaire de partage.",
+        "Ajoutez le lien, le nom, une description et le propriétaire si possible.",
+        "Après vérification, la ressource pourra être ajoutée au site."
+      ],
+      "thanks": "Merci à chaque personne qui partage une ressource utile. Une seule ressource peut aider beaucoup d’étudiants."
+    },
+    "aboutPage": {
+      "title": "À propos du projet",
+      "subtitle": "Un projet communautaire pour rendre les ressources étudiantes plus accessibles.",
+      "developers": "Développeurs",
+      "community": "Communauté",
+      "projectInfo": "Informations du projet",
+      "thanks": "Remerciements",
+      "repo": "Dépôt GitHub",
+      "owner": "Propriétaire",
+      "links": "Liens"
+    },
+    "notFound": {
+      "title": "Page introuvable",
+      "subtitle": "La page demandée n’existe pas ou a été déplacée."
+    },
+    "footer": {
+      "line": "Fait avec El Mostahlek Yestahlek pour aider les étudiants à trouver les ressources plus rapidement."
+    },
+    "brand": "Ressources"
+  },
+  "en": {
+    "langName": "English",
+    "dir": "ltr",
+    "seoTitle": "Student Resources | El Mostahlek",
+    "seoDescription": "A static platform to collect and find student resources easily.",
+    "nav": {
+      "home": "Home",
+      "resources": "Resources",
+      "download": "Download",
+      "collaborate": "Collaborate",
+      "about": "About"
+    },
+    "common": {
+      "lastUpdate": "Last update",
+      "open": "Open",
+      "openResource": "Open resource",
+      "search": "Search",
+      "university": "University",
+      "type": "Type",
+      "owner": "Owner",
+      "all": "All",
+      "allUniversities": "All universities",
+      "folders": "Folders",
+      "files": "Files",
+      "websites": "Websites",
+      "folder": "Folder",
+      "file": "File",
+      "website": "Website",
+      "reset": "Reset",
+      "loading": "Loading...",
+      "noResults": "No resources found with these filters.",
+      "resources": "resources",
+      "result": "result",
+      "results": "results",
+      "download": "Download",
+      "copy": "Copy",
+      "selectAll": "Select all",
+      "clear": "Clear",
+      "generatedFrom": "Generated from",
+      "backHome": "Back home",
+      "skipContent": "Skip to content",
+      "name": "Name",
+      "description": "Description",
+      "link": "Link",
+      "generatedAt": "Generated at",
+      "total": "Total",
+      "darkMode": "Dark mode",
+      "lightMode": "Light mode",
+      "style": "Style"
+    },
+    "home": {
+      "badge": "Community library",
+      "title": "All useful student resources in one place.",
+      "subtitle": "A simple, fast, static website that gathers Drive folders, files and useful websites shared by the community.",
+      "ctaResources": "Explore resources",
+      "ctaCollaborate": "Share a resource",
+      "statsTitle": "What this site organizes",
+      "statUniversities": "categories / universities",
+      "statResources": "indexed resources",
+      "statTypes": "resource types",
+      "ideaTitle": "Why this project?",
+      "ideaText": "Useful links often get lost in posts, messages or groups. This project collects them in a clean interface with search, filters, TXT download, and a form to suggest new resources.",
+      "cards": [
+        {
+          "title": "Fast search",
+          "text": "Filter by university, type, owner or keywords from the name and description."
+        },
+        {
+          "title": "Simple download",
+          "text": "Turn the JSON files into clean TXT lists directly in the browser."
+        },
+        {
+          "title": "Easy to extend",
+          "text": "Add a new university by creating a JSON file and adding it to the manifest."
+        }
+      ],
+      "duaTitle": "Du’a for students",
+      "duaArabic": "اللهم لا سهل إلا ما جعلته سهلاً، وأنت تجعل الحزن إذا شئت سهلاً. اللهم وفق كل طالب وطالبة وارزقهم علماً نافعاً ونجاحاً مباركاً.",
+      "duaTranslation": "May Allah make studies easier for every student, grant them beneficial knowledge, blessed success and the best means to succeed."
+    },
+    "resourcesPage": {
+      "title": "Explore resources",
+      "subtitle": "By default, this page loads ENSI resources to stay light. Choose another university or “All universities” to broaden the search.",
+      "searchPlaceholder": "Name, description, link...",
+      "fullNotice": "Full view: all universities matching the filters are loaded.",
+      "loadAllHint": "Choose “All universities” to display the whole database.",
+      "countLabel": "Displayed resources",
+      "defaultNotice": "Showing the selected university. ENSI is loaded by default."
+    },
+    "downloadPage": {
+      "title": "Download resources as TXT",
+      "subtitle": "Choose the universities and types to include. The TXT file is generated in the browser from the JSON files, without the color field.",
+      "chooseUniversities": "Universities to include",
+      "filtersTitle": "Download filters",
+      "searchPlaceholder": "Name, description, link...",
+      "preview": "Preview",
+      "downloadButton": "Download TXT",
+      "emptySelection": "Select at least one university.",
+      "emptyDownload": "No resources match the current filters.",
+      "fileName": "student-resources"
+    },
+    "collaboratePage": {
+      "title": "Collaborate on the project",
+      "subtitle": "Have a useful Drive folder, file or website? Send it through the form so it can be reviewed and added.",
+      "button": "Open Google Form",
+      "stepsTitle": "How to contribute?",
+      "steps": [
+        "Open the sharing form.",
+        "Add the link, name, description and owner if possible.",
+        "After review, the resource can be added to the website."
+      ],
+      "thanks": "Thank you to everyone who shares useful resources. One resource can help many students."
+    },
+    "aboutPage": {
+      "title": "About the project",
+      "subtitle": "A community project to make student resources easier to access.",
+      "developers": "Developers",
+      "community": "Community",
+      "projectInfo": "Project information",
+      "thanks": "Thanks",
+      "repo": "GitHub repository",
+      "owner": "Owner",
+      "links": "Links"
+    },
+    "notFound": {
+      "title": "Page not found",
+      "subtitle": "The requested page does not exist or has been moved."
+    },
+    "footer": {
+      "line": "Built with El Mostahlek Yestahlek to help students find resources faster."
+    },
+    "brand": "Resources"
+  },
+  "ar": {
+    "langName": "العربية",
+    "dir": "rtl",
+    "seoTitle": "موارد الطلاب | المستهلك",
+    "seoDescription": "منصة ثابتة لجمع موارد الطلاب والوصول إليها بسهولة.",
+    "nav": {
+      "home": "الرئيسية",
+      "resources": "الموارد",
+      "download": "تحميل",
+      "collaborate": "المساهمة",
+      "about": "حول"
+    },
+    "common": {
+      "lastUpdate": "آخر تعديل",
+      "open": "فتح",
+      "openResource": "فتح المورد",
+      "search": "بحث",
+      "university": "الجامعة",
+      "type": "النوع",
+      "owner": "المالك",
+      "all": "الكل",
+      "allUniversities": "كل الجامعات",
+      "folders": "مجلدات",
+      "files": "ملفات",
+      "websites": "مواقع",
+      "folder": "مجلد",
+      "file": "ملف",
+      "website": "موقع",
+      "reset": "إعادة ضبط",
+      "loading": "جاري التحميل...",
+      "noResults": "لا توجد موارد بهذه الفلاتر.",
+      "resources": "موارد",
+      "result": "نتيجة",
+      "results": "نتائج",
+      "download": "تحميل",
+      "copy": "نسخ",
+      "selectAll": "تحديد الكل",
+      "clear": "مسح",
+      "generatedFrom": "تم توليده من",
+      "backHome": "العودة للرئيسية",
+      "skipContent": "انتقل إلى المحتوى",
+      "name": "الاسم",
+      "description": "الوصف",
+      "link": "الرابط",
+      "generatedAt": "تم التوليد في",
+      "total": "المجموع",
+      "darkMode": "الوضع الداكن",
+      "lightMode": "الوضع الفاتح",
+      "style": "النمط"
+    },
+    "home": {
+      "badge": "مكتبة مجتمعية",
+      "title": "كل الموارد الطلابية المفيدة في مكان واحد.",
+      "subtitle": "موقع بسيط وسريع وثابت يجمع مجلدات Drive والملفات والمواقع المفيدة التي يشاركها المجتمع.",
+      "ctaResources": "استكشاف الموارد",
+      "ctaCollaborate": "مشاركة مورد",
+      "statsTitle": "ما الذي ينظمه هذا الموقع؟",
+      "statUniversities": "تصنيفات / جامعات",
+      "statResources": "موارد مفهرسة",
+      "statTypes": "أنواع موارد",
+      "ideaTitle": "لماذا هذا المشروع؟",
+      "ideaText": "الروابط المفيدة تضيع غالباً في المنشورات والرسائل والمجموعات. هذا المشروع يجمعها في واجهة واضحة مع بحث وفلاتر وتحميل TXT ونموذج لاقتراح موارد جديدة.",
+      "cards": [
+        {
+          "title": "بحث سريع",
+          "text": "فلترة حسب الجامعة أو النوع أو المالك أو الكلمات المفتاحية في الاسم والوصف."
+        },
+        {
+          "title": "تحميل بسيط",
+          "text": "تحويل ملفات JSON إلى قوائم TXT واضحة مباشرة من المتصفح."
+        },
+        {
+          "title": "قابل للتوسعة",
+          "text": "أضف جامعة جديدة بإنشاء ملف JSON وإضافته إلى ملف manifest."
+        }
+      ],
+      "duaTitle": "دعاء للطلاب",
+      "duaArabic": "اللهم لا سهل إلا ما جعلته سهلاً، وأنت تجعل الحزن إذا شئت سهلاً. اللهم وفق كل طالب وطالبة وارزقهم علماً نافعاً ونجاحاً مباركاً.",
+      "duaTranslation": "نسأل الله أن ييسّر لكل طالب وطالبة، وأن يرزقهم علماً نافعاً ونجاحاً مباركاً وأسباب التوفيق."
+    },
+    "resourcesPage": {
+      "title": "استكشاف الموارد",
+      "subtitle": "افتراضياً يتم تحميل موارد ENSI حتى تبقى الصفحة خفيفة. اختر جامعة أخرى أو “كل الجامعات” لتوسيع البحث.",
+      "searchPlaceholder": "الاسم، الوصف، الرابط...",
+      "fullNotice": "عرض كامل: يتم تحميل كل الجامعات المطابقة للفلاتر.",
+      "loadAllHint": "اختر “كل الجامعات” لعرض كل قاعدة البيانات.",
+      "countLabel": "الموارد المعروضة",
+      "defaultNotice": "عرض الجامعة المختارة. يتم تحميل ENSI افتراضياً."
+    },
+    "downloadPage": {
+      "title": "تحميل الموارد بصيغة TXT",
+      "subtitle": "اختر الجامعات والأنواع المراد تضمينها. يتم توليد ملف TXT في المتصفح من ملفات JSON دون حقل color.",
+      "chooseUniversities": "الجامعات المراد تضمينها",
+      "filtersTitle": "فلاتر التحميل",
+      "searchPlaceholder": "الاسم، الوصف، الرابط...",
+      "preview": "معاينة",
+      "downloadButton": "تحميل TXT",
+      "emptySelection": "اختر جامعة واحدة على الأقل.",
+      "emptyDownload": "لا توجد موارد تطابق الفلاتر الحالية.",
+      "fileName": "student-resources"
+    },
+    "collaboratePage": {
+      "title": "المساهمة في المشروع",
+      "subtitle": "لديك مجلد Drive أو ملف أو موقع مفيد؟ أرسله عبر النموذج ليتم مراجعته وإضافته.",
+      "button": "فتح نموذج Google",
+      "stepsTitle": "كيف تساهم؟",
+      "steps": [
+        "افتح نموذج المشاركة.",
+        "أضف الرابط والاسم والوصف والمالك إن أمكن.",
+        "بعد المراجعة يمكن إضافة المورد إلى الموقع."
+      ],
+      "thanks": "شكراً لكل شخص يشارك مورداً مفيداً. مورد واحد قد يساعد الكثير من الطلاب."
+    },
+    "aboutPage": {
+      "title": "حول المشروع",
+      "subtitle": "مشروع مجتمعي لجعل الموارد الطلابية أسهل في الوصول.",
+      "developers": "المطورون",
+      "community": "المجتمع",
+      "projectInfo": "معلومات المشروع",
+      "thanks": "الشكر",
+      "repo": "مستودع GitHub",
+      "owner": "المالك",
+      "links": "روابط"
+    },
+    "notFound": {
+      "title": "الصفحة غير موجودة",
+      "subtitle": "الصفحة المطلوبة غير موجودة أو تم نقلها."
+    },
+    "footer": {
+      "line": "تم إنجازه مع El Mostahlek Yestahlek لمساعدة الطلاب على إيجاد الموارد بسرعة."
+    },
+    "brand": "الموارد"
+  }
+}

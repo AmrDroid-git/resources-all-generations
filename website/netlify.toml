@@ -1,0 +1,28 @@
+# Netlify configuration for clean static routes.
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/home"
+  to = "/home/"
+  status = 301
+
+[[redirects]]
+  from = "/resources"
+  to = "/resources/"
+  status = 301
+
+[[redirects]]
+  from = "/download"
+  to = "/download/"
+  status = 301
+
+[[redirects]]
+  from = "/collaborate"
+  to = "/collaborate/"
+  status = 301
+
+[[redirects]]
+  from = "/about"
+  to = "/about/"
+  status = 301
