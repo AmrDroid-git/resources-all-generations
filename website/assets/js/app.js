@@ -279,30 +279,58 @@
       .toUpperCase();
   }
 
-  async function discoverResourceEntries() {
+  function buildEntriesFromFiles(files) {
+    const directory = resourceDirectory();
+    return [...new Set(files)]
+      .filter(isResourceJsonFile)
+      .sort((a, b) => a.localeCompare(b))
+      .map((fileName) => {
+        const id = fileName.replace(/\.json$/i, '');
+        return {
+          id,
+          label: formatUniversityLabelFromFile(fileName),
+          file: `${directory}${fileName}`,
+          count: 0,
+          types: [],
+          ownersCount: 0
+        };
+      });
+  }
+
+  async function discoverFilesFromEndpoint() {
+    const endpoint = state.config.resources_discovery_endpoint;
+    if (!endpoint) return [];
+
+    try {
+      const response = await fetch(endpoint, { cache: 'no-cache' });
+      if (!response.ok) return [];
+      const payload = await response.json();
+      const rawFiles = Array.isArray(payload) ? payload : (payload.files || []);
+      return rawFiles.map(fileNameFromHref).filter(isResourceJsonFile);
+    } catch (error) {
+      console.warn('Resource discovery endpoint failed, falling back to directory listing.', error);
+      return [];
+    }
+  }
+
+  async function discoverFilesFromDirectoryListing() {
     const directory = resourceDirectory();
     const response = await fetch(directory, { cache: 'no-cache' });
-    if (!response.ok) {
-      throw new Error(`Cannot discover resource files from ${directory}. The server must expose directory listing for this static no-index setup.`);
-    }
-
+    if (!response.ok) return [];
     const html = await response.text();
-    const files = extractJsonFilesFromDirectoryHTML(html);
+    return extractJsonFilesFromDirectoryHTML(html);
+  }
+
+  async function discoverResourceEntries() {
+    const directory = resourceDirectory();
+    const filesFromEndpoint = await discoverFilesFromEndpoint();
+    const files = filesFromEndpoint.length ? filesFromEndpoint : await discoverFilesFromDirectoryListing();
+
     if (!files.length) {
-      throw new Error(`No university JSON files were discovered in ${directory}. Add files like ensi.json directly inside /data, or enable directory listing on your static server.`);
+      throw new Error(`No university JSON files were discovered. On Netlify, check /.netlify/functions/list-resources and data/link/*.json. Locally, make sure ${directory} exists.`);
     }
 
-    return files.map((fileName) => {
-      const id = fileName.replace(/\.json$/i, '');
-      return {
-        id,
-        label: formatUniversityLabelFromFile(fileName),
-        file: `${directory}${fileName}`,
-        count: 0,
-        types: [],
-        ownersCount: 0
-      };
-    });
+    return buildEntriesFromFiles(files);
   }
 
   async function hydrateResourceMetadata() {

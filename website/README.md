@@ -10,7 +10,9 @@ A static, multilingual website for collecting student resources from JSON files.
 - App/config files stay in `/data`.
 - Resource/link JSON files stay in `/data/link/`.
 - Resource files are discovered automatically from `/data/link/`.
-- No `index.json` file is required anymore.
+- On Netlify, discovery uses `/.netlify/functions/list-resources`, so it does **not** depend on public directory listing.
+- Locally, discovery can fall back to `/data/link/` directory listing.
+- No manual `index.json` file is required anymore.
 - University/category names are generated from the JSON filename only.
   - `iseah.json` becomes `ISEAH`.
   - `prepa.json` becomes `PREPA`.
@@ -46,11 +48,25 @@ A static, multilingual website for collecting student resources from JSON files.
 └── README.md
 ```
 
-## Important note about auto-discovery
+## Auto-discovery
 
-The browser can only discover files in `/data/link/` if the server exposes a directory listing for that folder.
+This version does **not** use a manual `index.json`.
 
-This works with simple local static servers such as:
+On Netlify, the frontend calls this serverless function:
+
+```txt
+/.netlify/functions/list-resources
+```
+
+That function reads the files inside:
+
+```txt
+data/link/
+```
+
+and returns the discovered `.json` filenames automatically.
+
+For local testing without Netlify Functions, the frontend falls back to reading the `/data/link/` directory listing. This works with:
 
 ```bash
 python -m http.server 8000
@@ -62,12 +78,7 @@ Then open:
 http://localhost:8000/home/
 ```
 
-If your production host blocks directory listing for `/data/link/`, no frontend-only JavaScript can magically know which files exist. In that case you need either:
-
-- a server/API endpoint that lists the files, or
-- a build step that generates a file list before deployment.
-
-This version follows your requested no-index frontend discovery approach.
+So on Netlify you do **not** need directory listing, and you do **not** need to edit any index file.
 
 ## Config defaults
 
@@ -77,6 +88,7 @@ Edit `data/config.json`:
 {
   "last_modification_date": "18/06/2026",
   "resources_directory": "/data/link/",
+  "resources_discovery_endpoint": "/.netlify/functions/list-resources",
   "share_resources_link": "https://docs.google.com/forms/...",
   "defaults": {
     "language": "fr",
@@ -87,7 +99,7 @@ Edit `data/config.json`:
 }
 ```
 
-`resources_directory` tells the JS where to discover resource JSON files.
+`resources_directory` tells the JS where the resource JSON files live. `resources_discovery_endpoint` is used on Netlify to list those files automatically.
 
 ## How to add a new university/resource category
 
