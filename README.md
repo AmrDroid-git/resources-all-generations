@@ -1,3 +1,6 @@
+https://tunisia-study.vercel.app
+https://ressources-hub.netlify.app
+
 # Resources All Generations
 
 A simple static website for sharing student resources by university/category. The project loads resources from JSON files, displays them in a clean searchable interface, and lets users download selected links as a `.txt` file.
