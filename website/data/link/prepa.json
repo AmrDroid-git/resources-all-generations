@@ -1,5 +1,12 @@
 [
   {
+    "type": "website",
+    "name": "MP2 resources iamateacher",
+    "description": "everything in one platform marrocain for MP Students from a generous professor",
+    "link": "https://www.iamateacher.org/",
+    "owner": "iamateacher"
+  },
+  {
     "link": "https://drive.google.com/drive/folders/1F9b3pwMusEXAL4gD9STDEvtNM26_1bAF",
     "name": "IPEIM MP2",
     "owner": "alaayahia976",
