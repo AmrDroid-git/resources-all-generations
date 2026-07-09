@@ -1230,5 +1230,243 @@
     "description": "Un site CPGE scientifique de Dupuy de Lôme à Lorient, avec des informations sur les filières CPGE, résultats des étudiants, banques de concours et ressources de classes préparatoires.",
     "link": "https://cpgedupuydelome.fr/",
     "owner": "community"
+  },
+  {
+    "type": "folder",
+    "name": "Drive kochbati001",
+    "description": "Un dossier Google Drive communautaire de ressources prépa, probablement avec cours, séries, examens, corrections et documents de révision.",
+    "link": "https://drive.google.com/drive/folders/1LhEMarL8Kyk3LUtNP7eQi0fNwUA4BKPf",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "Procédés Industriels — Séquence 12",
+    "description": "Une page pédagogique d’Alain Cournoyer sur les procédés industriels, utile comme support de cours ou d’illustration technique.",
+    "link": "http://www.alaincournoyer.com/didaclip/procindus/procindus_seq12.html",
+    "owner": "community"
+  },
+  {
+    "type": "folder",
+    "name": "Drive Ressources Prépa",
+    "description": "Un dossier Google Drive partagé pour étudiants de prépa, contenant probablement des cours, TD, examens, résumés et supports de concours.",
+    "link": "https://drive.google.com/drive/folders/135OvjyjUdxxxU9p3q3pJ90-LoJmeyU8o",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "Diaporamas de Cours MP — Lycée Carnot",
+    "description": "Une page Google Sites du lycée Carnot regroupant des diaporamas de cours pour MPSI/MP, utile pour suivre ou réviser les chapitres.",
+    "link": "https://sites.google.com/view/mpsi-mp-lyceecarnot/mpsi-mp/mp/diaporamas-de-cours",
+    "owner": "community"
+  },
+  {
+    "type": "folder",
+    "name": "Drive Documents Prépa",
+    "description": "Un dossier Google Drive de documents de prépa, probablement organisé avec cours, exercices, devoirs surveillés et corrections.",
+    "link": "https://drive.google.com/drive/folders/1jFxB3SKHqaMyIE4RfNsnHkwmnkRlpHCJ",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "Doc-Solus",
+    "description": "Un site de corrigés et solutions pour concours et exercices de classes préparatoires, utile pour travailler les annales et problèmes corrigés.",
+    "link": "https://www.doc-solus.fr/",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "AlloSchool — Classes Préparatoires CPGE",
+    "description": "Une page AlloSchool dédiée aux classes préparatoires CPGE, avec cours, exercices, examens et ressources organisées par niveau et matière.",
+    "link": "https://www.alloschool.com/category/classes-preparatoires-cpge",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "Cours Lefi Abdellaoui",
+    "description": "Une page WordPress de cours partagés par Lefi Abdellaoui, utile pour récupérer des supports de cours et documents de révision.",
+    "link": "https://lefiabdellaoui.wordpress.com/cours/",
+    "owner": "community"
+  },
+  {
+    "type": "folder",
+    "name": "Drive Cours et TD Prépa",
+    "description": "Un dossier Google Drive de ressources prépa orienté cours et travaux dirigés, avec probablement des fichiers classés par matière.",
+    "link": "https://drive.google.com/drive/folders/1e2hct1ToCdsiLkF62vzoj7czcrrArgQC",
+    "owner": "community"
+  },
+  {
+    "type": "folder",
+    "name": "Drive Annales et Examens Prépa",
+    "description": "Un dossier Google Drive communautaire pour la préparation aux examens et concours, probablement avec sujets, corrections et documents d’entraînement.",
+    "link": "https://drive.google.com/drive/folders/1HAzI2Ol0sM8G0glODNVHwwvB7PxTjE1E",
+    "owner": "community"
+  },
+  {
+    "type": "folder",
+    "name": "Collection Générale Prépa",
+    "description": "Un dossier Google Drive général regroupant plusieurs ressources de classes préparatoires, probablement cours, livres, séries et résumés.",
+    "link": "https://drive.google.com/drive/folders/185s5lH7LHAQKLZRnarr4Z1pNyYL75v4c",
+    "owner": "community"
+  },
+  {
+    "type": "folder",
+    "name": "Drive Documents Partagés Prépa",
+    "description": "Un dossier Google Drive partagé contenant probablement des documents de prépa variés pour les matières scientifiques et la préparation des concours.",
+    "link": "https://drive.google.com/drive/folders/1-qgEZYBLh_lI0qHgRMrfFCtuyrmQeYXD",
+    "owner": "community"
+  },
+  {
+    "type": "folder",
+    "name": "Drive Supports de Cours Prépa",
+    "description": "Un dossier Google Drive de supports de cours et documents d’étude pour étudiants de prépa, probablement avec fichiers classés par chapitre ou matière.",
+    "link": "https://drive.google.com/drive/folders/1VeYkQ7ODeSGqNl8qVQEtLCDWhYf4JR57",
+    "owner": "community"
+  },
+  {
+    "type": "folder",
+    "name": "Drive Révision Prépa",
+    "description": "Un dossier Google Drive de révision pour la prépa, probablement avec fiches, résumés, TD, sujets d’examen et corrections.",
+    "link": "https://drive.google.com/drive/folders/1-26okhwb7DjA8XVmQOggIvy8VhAjiDw-",
+    "owner": "community"
+  },
+  {
+    "type": "folder",
+    "name": "Drive Concours et Corrections Prépa",
+    "description": "Un dossier Google Drive utile pour les concours, probablement avec annales, corrigés, problèmes et documents d’entraînement.",
+    "link": "https://drive.google.com/drive/folders/1OjKiyQFZkLSNx1MLcJbKVe1OPP4YReqr",
+    "owner": "community"
+  },
+  {
+    "type": "folder",
+    "name": "Drive Matières Scientifiques Prépa",
+    "description": "Un dossier Google Drive de ressources scientifiques pour la prépa, probablement couvrant maths, physique, chimie, informatique ou sciences de l’ingénieur.",
+    "link": "https://drive.google.com/drive/folders/14_ya2TCc9ACwVxMhLOExAAkJlmpVWoUS",
+    "owner": "community"
+  },
+  {
+    "type": "folder",
+    "name": "Drive Prépa Organisé",
+    "description": "Un dossier Google Drive organisé de ressources prépa, probablement trié par dossiers, matières ou types de documents.",
+    "link": "https://drive.google.com/drive/u/0/folders/1l-rlmYufCv3jKiCf0cvAVqEbKewz1BUQ",
+    "owner": "community"
+  },
+  {
+    "type": "folder",
+    "name": "Archive Drive Prépa",
+    "description": "Un dossier Google Drive d’archives prépa contenant probablement d’anciens cours, sujets, corrections et documents de révision.",
+    "link": "https://drive.google.com/drive/folders/1nWqyUWfVtRVmY6xxPZQ9TUzXWUINjqqo",
+    "owner": "community"
+  },
+  {
+    "type": "folder",
+    "name": "Dossier Communautaire Prépa",
+    "description": "Un dossier Google Drive communautaire regroupant probablement des ressources CPGE partagées entre étudiants : cours, séries, DS, examens et résumés.",
+    "link": "https://drive.google.com/drive/folders/1iVgrn0zi_sHrTjee6-X5NHRsp88JvVTM",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "Online Python",
+    "description": "Un compilateur Python en ligne pratique pour tester rapidement du code Python sans installation locale.",
+    "link": "https://www.online-python.com/",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "Rahma Boucetta RB",
+    "description": "Une chaîne YouTube éducative partagée comme ressource prépa, utile pour suivre des vidéos de cours, exercices ou révisions.",
+    "link": "https://youtube.com/@rahmaboucetta_rb",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "e-Learning Physique",
+    "description": "Une chaîne YouTube de physique, utile pour revoir des chapitres, suivre des explications de cours et travailler des exercices.",
+    "link": "https://youtube.com/@e-learningphysique4910",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "Ghaith Sellami",
+    "description": "Une chaîne YouTube éducative partagée pour les étudiants de prépa, probablement avec des vidéos de cours, méthodes et exercices.",
+    "link": "https://youtube.com/@ghaithsellami2849",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "Fraysse S2I",
+    "description": "Une chaîne YouTube de sciences industrielles de l’ingénieur, utile pour les cours, méthodes, exemples et exercices de S2I.",
+    "link": "https://youtube.com/@fraysse-s2i",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "Hedi Chtourou",
+    "description": "Une chaîne YouTube éducative partagée comme ressource prépa, utile pour compléter les cours et réviser avec des vidéos.",
+    "link": "https://youtube.com/@hedichtourou",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "IPEIM",
+    "description": "Une chaîne YouTube liée à l’IPEIM, utile pour des contenus pédagogiques, cours, conférences ou ressources pour étudiants de prépa.",
+    "link": "https://youtube.com/@ipeim6691",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "La Physique Pour Tous",
+    "description": "Une chaîne YouTube de physique avec des explications accessibles, utile pour revoir les notions de cours et renforcer la compréhension.",
+    "link": "https://youtube.com/@laphysiquepourtous",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "Lefi Abdellaoui",
+    "description": "Une chaîne YouTube éducative de Lefi Abdellaoui, utile comme complément vidéo aux cours et ressources partagées.",
+    "link": "https://youtube.com/@lefiabdellaoui5713",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "Maths Adultes",
+    "description": "Une chaîne YouTube de mathématiques, utile pour revoir les bases, méthodes, exercices et notions avancées de maths.",
+    "link": "https://youtube.com/@mathsadultes",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "Mohamed Triki",
+    "description": "Une chaîne YouTube éducative partagée pour les étudiants, probablement avec des vidéos de cours, exercices ou révision.",
+    "link": "https://youtube.com/@mohamedtriki8802",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "MPSI2 Lycée Carnot",
+    "description": "Une chaîne YouTube liée à la MPSI2 du lycée Carnot, utile pour suivre des contenus de cours, corrections ou supports vidéo.",
+    "link": "https://youtube.com/@mpsi2lyceecarnot",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "Neil Jomaa",
+    "description": "Une chaîne YouTube éducative partagée dans les ressources prépa, utile pour des vidéos de cours, exercices ou conseils d’étude.",
+    "link": "https://youtube.com/@neiljomaa",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "Prépa IPEIS",
+    "description": "Une chaîne YouTube liée à la prépa IPEIS, utile pour des ressources pédagogiques, cours, corrections ou contenus d’orientation.",
+    "link": "https://youtube.com/@prepa-ipeis1455",
+    "owner": "community"
+  },
+  {
+    "type": "website",
+    "name": "Sonia Dridi",
+    "description": "Une chaîne YouTube éducative de Sonia Dridi, partagée comme ressource pour cours, exercices et révisions de prépa.",
+    "link": "https://youtube.com/@soniadridi4228",
+    "owner": "community"
   }
 ]
