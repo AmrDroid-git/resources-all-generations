@@ -20,6 +20,8 @@
     "prepa.json",
     "ugaf.json",
     "pharmacie.json",
-    "others.json"
+    "others.json",
+    "enicar.json",
+    "isimm.json"
   ]
 }

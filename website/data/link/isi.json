@@ -1,9 +1,30 @@
 [
   {
-    "link": "https://drive.google.com/drive/folders/1zwRGAD0Qxp8SsMyHMw0zxPWAR4RMffTJ?usp=drive_link",
+    "link": "https://drive.google.com/drive/folders/1zwRGAD0Qxp8SsMyHMw0zxPWAR4RMffTJ",
     "name": "l1 cs",
     "owner": "community",
     "description": "ISI - l1 cs",
+    "type": "folder"
+  },
+  {
+    "link": "https://drive.google.com/drive/folders/1jWY-dPaQYByfcVeWAGLXUlOWOn8us_KM",
+    "name": "2eme cycle ",
+    "owner": "community",
+    "description": "1ere sem tronc commun,2eme IDL",
+    "type": "folder"
+  },
+  {
+    "link": "https://drive.google.com/drive/folders/1o8FdxrJPs1-VyOHgxlwH9TabDsoqtC17",
+    "name": "1ere ING exams only",
+    "owner": "community",
+    "description": "1ere ING exams only",
+    "type": "folder"
+  },
+  {
+    "link": "https://drive.google.com/drive/folders/1fjfsuUi4E3qAQTu_q662NydsrxqVMV6x",
+    "name": "1ere ING",
+    "owner": "community",
+    "description": "1ere ING",
     "type": "folder"
   }
 ]
