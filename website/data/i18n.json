@@ -86,7 +86,7 @@
       "fullNotice": "Affichage complet : toutes les universités correspondant aux filtres sont chargées.",
       "loadAllHint": "Choisissez “Toutes les universités” pour afficher toute la base.",
       "countLabel": "Ressources affichées",
-      "defaultNotice": "Affichage par université sélectionnée. ENSI est chargé par défaut."
+      "defaultNotice": "Affichage par université sélectionnée."
     },
     "downloadPage": {
       "title": "Télécharger les ressources en TXT",
@@ -219,7 +219,7 @@
       "fullNotice": "Full view: all universities matching the filters are loaded.",
       "loadAllHint": "Choose “All universities” to display the whole database.",
       "countLabel": "Displayed resources",
-      "defaultNotice": "Showing the selected university. ENSI is loaded by default."
+      "defaultNotice": "Showing the selected university."
     },
     "downloadPage": {
       "title": "Download resources as TXT",
